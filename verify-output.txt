@@ -1,0 +1,35 @@
+﻿=== Checking database for admin user ===
+Γ¥î Admin user NOT found in database
+Creating admin user now...
+node : Error: 
+En línea: 1 Carácter: 44
++ ... \aplicacion diesel\my-desktop-app" ; node verify-user.js 2>&1 | Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Error: :String) [], RemoteExcepti 
+   on
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Invalid `prisma.user.create()` invocation in
+E:\aplicacion diesel\my-desktop-app\verify-user.js:17:43
+
+  14 console.log('Γ¥î Admin user NOT found in database')
+  15 console.log('Creating admin user now...')
+  16 const hash = await bcrypt.hash('password123', 10)
+ΓåÆ 17 const created = await prisma.user.create({
+       data: {
+         email: "admin@test.com",
+         passwordHash: "$2b$10$YPLifInL9I6nTDLHKq4wzuHyt2/RomS8XmQKeXgoSbXKQ6dQ
+4esxe",
+         name: "Admin User",
+         role: "admin",
+         ~~~~
+     ?   id?: String,
+     ?   isActive?: Boolean,
+     ?   createdAt?: DateTime,
+     ?   updatedAt?: DateTime,
+     ?   userRoles?: UserRoleCreateNestedManyWithoutUserInput
+       }
+     })
+
+Unknown argument `role`. Did you mean `name`? Available options are marked with
+ ?.

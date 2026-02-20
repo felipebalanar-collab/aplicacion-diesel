@@ -1,0 +1,26 @@
+[
+  {
+    "id": "kb-1",
+    "title": "Falla de retorno excesivo",
+    "keywords": ["retorno", "excesivo", "fuga", "retorno alto"],
+    "answer": "Si el retorno es alto en banco, revisa primero la valvula de control y el asiento. Verifica estanqueidad a alta presion sin pulsos. Un retorno excesivo tambien puede indicar desgaste en aguja y cuerpo."
+  },
+  {
+    "id": "kb-2",
+    "title": "Inyector no abre en banco",
+    "keywords": ["no abre", "no inyecta", "inyector cerrado"],
+    "answer": "Comprueba alimentacion electrica, resistencia de bobina y continuidad en el arnes. Si la resistencia es correcta, revisa inductancia y prueba con otro driver. Una bobina en corto puede impedir apertura."
+  },
+  {
+    "id": "kb-3",
+    "title": "Consejo para calibracion CR",
+    "keywords": ["calibracion", "common rail", "cr", "ajuste"],
+    "answer": "Para calibracion CR, valida presion real vs. demandada y compara caudales en VL, EM, LL y VE. Ajustes deben hacerse con tablas oficiales del banco y verificacion de retorno." 
+  },
+  {
+    "id": "kb-4",
+    "title": "Error de medicion electrica",
+    "keywords": ["resistencia", "inductancia", "medicion", "multimetro"],
+    "answer": "Si los valores de resistencia son inestables, limpia conectores y usa puntas Kelvin. Una inductancia baja con resistencia normal puede indicar espiras en corto internas."
+  }
+]

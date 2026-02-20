@@ -1,0 +1,595 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  --primary: #38bdf8;
+  --secondary: #64748b;
+  --accent: #f59e0b;
+}
+
+@theme {
+  --color-glass-bg: rgba(30, 41, 59, 0.7);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  color: var(--foreground);
+  background: radial-gradient(circle at top left, #1e293b, #0f172a);
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+@utility glass-card {
+  background-color: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+@utility glass-input {
+  background-color: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+
+  &:focus {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+    --tw-ring-color: #0ea5e9;
+    border-color: #0ea5e9;
+  }
+}
+
+@utility btn-primary {
+  background-color: #0ea5e9;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &:hover {
+    background-color: #38bdf8;
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.2);
+  }
+}
+
+@utility industrial-text {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #38bdf8;
+}
+
+.animate-pulse-slow {
+  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-spin-slow {
+  animation: spin 6s linear infinite;
+}
+
+.gaia-mascot {
+  filter: drop-shadow(0 4px 12px rgba(0, 217, 255, 0.4));
+}
+
+.float-body {
+  animation: floatBody 3s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+.eyes-blink {
+  animation: blinkEyes 4s infinite;
+}
+
+.eye-glow-left,
+.eye-glow-right {
+  animation: eyeGlow 2s ease-in-out infinite;
+}
+
+.eye-shine {
+  animation: shineMove 3s ease-in-out infinite;
+}
+
+.smile-glow {
+  animation: smilePulse 2s ease-in-out infinite;
+}
+
+.holographic-brain {
+  animation: brainFloat 2.5s ease-in-out infinite;
+  transform-origin: 100px 55px;
+}
+
+.brain-pulse {
+  animation: brainPulse 2s ease-in-out infinite;
+}
+
+.node-pulse-1 {
+  animation: nodePulse 1.5s ease-in-out infinite;
+}
+
+.node-pulse-2 {
+  animation: nodePulse 1.5s ease-in-out infinite 0.3s;
+}
+
+.node-pulse-3 {
+  animation: nodePulse 1.5s ease-in-out infinite 0.6s;
+}
+
+.synapse-1 {
+  animation: synapsePulse 1.5s ease-in-out infinite;
+}
+
+.synapse-2 {
+  animation: synapsePulse 1.5s ease-in-out infinite 0.3s;
+}
+
+.synapse-3 {
+  animation: synapsePulse 1.5s ease-in-out infinite 0.6s;
+}
+
+.particle-1 {
+  animation: particleFloat 3s ease-in-out infinite;
+}
+
+.particle-2 {
+  animation: particleFloat 3s ease-in-out infinite 0.5s;
+}
+
+.particle-3 {
+  animation: particleFloat 3s ease-in-out infinite 1s;
+}
+
+.hand-left {
+  animation: handWaveLeft 3s ease-in-out infinite;
+  transform-origin: 75px 115px;
+}
+
+.hand-right {
+  animation: handWaveRight 3s ease-in-out infinite 0.3s;
+  transform-origin: 225px 115px;
+}
+
+.base-glow {
+  animation: baseGlow 2s ease-in-out infinite;
+}
+
+.gaia-label {
+  animation: labelPulse 2s ease-in-out infinite;
+}
+
+.gaia-rainbow {
+  animation: rainbowGlow 3s ease-in-out infinite;
+}
+
+.engine-mascot {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.engine-body {
+  width: 85%;
+  height: 85%;
+  background: linear-gradient(145deg, #0f172a, #1f2937);
+  border: 2px solid rgba(56, 189, 248, 0.4);
+  border-radius: 8px;
+  position: relative;
+  box-shadow: inset 0 0 8px rgba(56, 189, 248, 0.3), 0 0 12px rgba(56, 189, 248, 0.2);
+  animation: pistonPulse 1.4s ease-in-out infinite;
+}
+
+.engine-eye {
+  width: 8px;
+  height: 8px;
+  background: #fbbf24;
+  border-radius: 999px;
+  position: absolute;
+  top: 28%;
+  animation: blink 4s infinite;
+  box-shadow: 0 0 4px #fbbf24;
+}
+
+.engine-eye-left {
+  left: 30%;
+}
+
+.engine-eye-right {
+  right: 30%;
+}
+
+.engine-mouth {
+  position: absolute;
+  width: 55%;
+  height: 4px;
+  background: rgba(248, 250, 252, 0.7);
+  bottom: 22%;
+  left: 22.5%;
+  border-radius: 999px;
+  animation: motorBreath 1.4s ease-in-out infinite;
+  box-shadow: 0 0 3px rgba(248, 250, 252, 0.5);
+}
+
+.engine-gear {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 999px;
+  border: 1px dashed rgba(56, 189, 248, 0.15);
+  right: -5%;
+  bottom: -5%;
+  animation: spinPiston 1.4s linear infinite;
+  box-shadow: none;
+}
+
+.engine-bob {
+  animation: bob 1.4s ease-in-out infinite;
+}
+
+.engine-wiggle {
+  animation: wiggle 2s ease-in-out infinite;
+}
+
+.engine-glow {
+  box-shadow: 0 0 0 rgba(56, 189, 248, 0.0);
+  animation: glow 3.6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinPiston {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pistonPulse {
+  0%,
+  100% {
+    box-shadow: inset 0 0 6px rgba(56, 189, 248, 0.2), 0 0 4px rgba(56, 189, 248, 0.1);
+  }
+  50% {
+    box-shadow: inset 0 0 14px rgba(56, 189, 248, 0.5), 0 0 10px rgba(56, 189, 248, 0.3);
+  }
+}
+
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-4px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes blink {
+  0%,
+  85%,
+  100% {
+    transform: scaleY(1);
+  }
+  87%,
+  89% {
+    transform: scaleY(0.05);
+  }
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.05);
+  }
+}
+
+@keyframes mouth {
+  0%,
+  100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0.6);
+  }
+}
+
+@keyframes motorBreath {
+  0%,
+  100% {
+    transform: scaleX(1) scaleY(1);
+    opacity: 0.7;
+  }
+  25% {
+    transform: scaleX(0.6) scaleY(1.4);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scaleX(1.15) scaleY(0.7);
+    opacity: 0.7;
+  }
+  75% {
+    transform: scaleX(0.75) scaleY(1.3);
+    opacity: 0.8;
+  }
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: none;
+  }
+}
+
+@keyframes enginePulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(56, 189, 248, 0.7));
+  }
+}
+
+@keyframes engineBreathe {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes spinClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinCounterClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes floatBody {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes blinkEyes {
+  0%,
+  90%,
+  100% {
+    transform: scaleY(1);
+  }
+  93%,
+  97% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes eyeGlow {
+  0%,
+  100% {
+    opacity: 0.8;
+    filter: blur(2px);
+  }
+  50% {
+    opacity: 1;
+    filter: blur(3px);
+  }
+}
+
+@keyframes shineMove {
+  0%,
+  100% {
+    opacity: 0.9;
+    transform: translate(0, 0);
+  }
+  50% {
+    opacity: 0.6;
+    transform: translate(1px, -1px);
+  }
+}
+
+@keyframes smilePulse {
+  0%,
+  100% {
+    opacity: 0.9;
+    filter: drop-shadow(0 0 3px #00D9FF);
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 6px #00D9FF);
+  }
+}
+
+@keyframes brainFloat {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-3px) scale(1.02);
+  }
+}
+
+@keyframes brainPulse {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes nodePulse {
+  0%,
+  100% {
+    opacity: 0.6;
+    r: 2;
+  }
+  50% {
+    opacity: 1;
+    r: 2.5;
+  }
+}
+
+@keyframes synapsePulse {
+  0%,
+  100% {
+    opacity: 0.4;
+    stroke-width: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+    stroke-width: 0.8;
+  }
+}
+
+@keyframes particleFloat {
+  0%,
+  100% {
+    transform: translate(0, 0);
+    opacity: 0.4;
+  }
+  25% {
+    transform: translate(2px, -3px);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translate(0, -5px);
+    opacity: 0.9;
+  }
+  75% {
+    transform: translate(-2px, -3px);
+    opacity: 0.7;
+  }
+}
+
+@keyframes handWaveLeft {
+  0%,
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+  25% {
+    transform: rotate(-10deg) translateY(-6px);
+  }
+  50% {
+    transform: rotate(-15deg) translateY(-10px);
+  }
+  75% {
+    transform: rotate(-8deg) translateY(-5px);
+  }
+}
+
+@keyframes handWaveRight {
+  0%,
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+  25% {
+    transform: rotate(10deg) translateY(-6px);
+  }
+  50% {
+    transform: rotate(15deg) translateY(-10px);
+  }
+  75% {
+    transform: rotate(8deg) translateY(-5px);
+  }
+}
+
+@keyframes rainbowGlow {
+  0% {
+    fill: #FF0000;
+    filter: drop-shadow(0 0 6px #FF0000);
+  }
+  33% {
+    fill: #00FF00;
+    filter: drop-shadow(0 0 6px #00FF00);
+  }
+  66% {
+    fill: #0099FF;
+    filter: drop-shadow(0 0 6px #0099FF);
+  }
+  100% {
+    fill: #FF0000;
+    filter: drop-shadow(0 0 6px #FF0000);
+  }
+}
+
+@keyframes baseGlow {
+  0%,
+  100% {
+    opacity: 0.4;
+    filter: blur(8px);
+  }
+  50% {
+    opacity: 0.6;
+    filter: blur(12px);
+  }
+}
+
+@keyframes labelPulse {
+  0%,
+  100% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}

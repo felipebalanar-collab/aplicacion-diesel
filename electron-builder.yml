@@ -1,0 +1,27 @@
+appId: com.tuempresa.bancodepruebas
+productName: BancoDePruebas
+
+files:
+  - "**/*"
+  - "!node_modules/typescript/**/*"
+  - "!node_modules/@types/**/*"
+
+win:
+  target:
+    - portable
+  certificateFile: null
+  certificatePassword: null
+  sign: null
+  signingHashAlgorithms:
+    - sha256
+  signtool: null
+
+publish: null
+
+extraMetadata:
+  build:
+    win:
+      certificateFile: null
+      certificatePassword: null
+      sign: null
+

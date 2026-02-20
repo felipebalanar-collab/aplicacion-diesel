@@ -1,0 +1,156 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Injector {
+  id              String   @id @default(cuid())
+  number          String   @unique
+  brand           String?
+  fuelType        String   @default("diesel") // 'diesel' or 'gasoline'
+  category        String   @default("inyector") // 'inyector', 'bomba', 'valvula'
+  family          String?  // e.g., '110', '120', 'G3', 'G4'
+  technology      String   @default("solenoide") // 'solenoide' or 'piezo'
+  type            String   @default("diesel") // Keep for backward compatibility or refactor later
+  similarParts    String?  // JSON or comma-separated
+  spareParts      String?  // JSON or comma-separated
+  vehicles        String?  // JSON or comma-separated
+  
+  // Electrical Diagnostics
+  resistance      Float?   // in Ohms
+  inductance      Float?   // in mH
+  capacitance     Float?   // in uF (for Piezo)
+  isolationMems   Float?   // in MOhm (Aislamiento)
+  bipTime         Float?   // in ms (BIP)
+
+  testPlans       TestPlan[]
+  caudalTables    CaudalTable[]
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model TestPlan {
+  id              String   @id @default(cuid())
+  name            String   // e.g., 'Full Load', 'Idle', 'Injection'
+  injectorId      String
+  injector        Injector @relation(fields: [injectorId], references: [id])
+  parameters      String   // JSON string with test values
+  isUniversal     Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model CaudalTable {
+  id              String   @id @default(cuid())
+  injectorId      String
+  injector        Injector @relation(fields: [injectorId], references: [id])
+  pressure        Float?
+  rpm             Float?   // RPM (revoluciones por minuto)
+  pulse           Float?   // Pulse (µs - microsegundos)
+  normal          Float?   // NORMAL (mm/Hub)
+  normalDelta     Float?   // ± (mm/Hub)
+  real            Float?   // REAL (mm/Hub)
+  flowRateMin     Float?
+  flowRateMax     Float?
+  returnFlowMin   Float?
+  returnFlowMax   Float?
+  matchingTime    Float?   // START TIME CHANGING MATCHING
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model HardwareTip {
+  id              String   @id @default(cuid())
+  title           String
+  iconName        String   @default("Wrench") // lucide-react icon name
+  detail          String
+  imagePath       String?  // Optional image path
+  order           Int      @default(0)
+  injectorType    String   @default("diesel") // 'diesel' or 'gasoline'
+  category        String   @default("general") // 'flowmeter', 'piping', 'general'
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Manual {
+  id              String          @id @default(cuid())
+  title           String
+  iconName        String          // lucide-react icon name (e.g., 'Zap', 'ShieldAlert')
+  imagePath       String
+  order           Int             @default(0)
+  contents        ManualContent[]
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+}
+
+model ManualContent {
+  id              String   @id @default(cuid())
+  manualId        String
+  manual          Manual   @relation(fields: [manualId], references: [id], onDelete: Cascade)
+  order           Int      @default(0)
+  subtitle        String
+  text            String
+  tip             String
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String?
+  isActive     Boolean  @default(true)
+  userRoles    UserRole[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Role {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  permissions RolePermission[]
+  users       UserRole[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Permission {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  category    String   // user_management, data_management, calibration_management, reports, system
+  roles       RolePermission[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model RolePermission {
+  id           String   @id @default(cuid())
+  roleId       String
+  role         Role     @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permissionId String
+  permission   Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+  createdAt    DateTime @default(now())
+
+  @@unique([roleId, permissionId])
+}
+
+model UserRole {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  roleId    String
+  role      Role     @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, roleId])
+}

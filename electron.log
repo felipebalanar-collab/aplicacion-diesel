@@ -1,0 +1,629 @@
+[2026-02-08T00:15:52.256Z] ====== ELECTRON STARTUP ======
+[2026-02-08T00:15:52.268Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T00:15:52.269Z] Starting application...
+[2026-02-08T00:15:52.270Z] [Electron] Main script loaded successfully
+[2026-02-08T00:15:53.157Z] [Electron] App ready event
+[2026-02-08T00:15:53.159Z] [Next] Attempting to start Next.js server
+[2026-02-08T00:15:53.160Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T00:15:53.160Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T00:15:53.161Z] [Next] Next binary exists: true
+[2026-02-08T00:15:53.161Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T00:15:53.163Z] [Next] Next CLI exists: true
+[2026-02-08T00:15:53.163Z] [Next] isPackaged: false
+[2026-02-08T00:15:53.164Z] [Next] Spawning process...
+[2026-02-08T00:15:53.199Z] [Next] Process spawned with PID: 25636
+[2026-02-08T00:15:53.292Z] [STDOUT] 
+[2026-02-08T00:15:58.177Z] [STDERR] > No such directory exists as the project root: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T00:15:58.212Z] [Next] Server timeout (5000ms), continuing anyway
+[2026-02-08T00:15:58.212Z] [Electron] Starting await...
+[2026-02-08T00:15:58.780Z] [Next] Process exited: code=1, signal=null
+[2026-02-08T00:16:01.224Z] [Electron] Creating window
+[2026-02-08T00:16:01.226Z] [Electron] Creating main window
+[2026-02-08T00:16:02.455Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T00:16:02.505Z] [Electron] Load URL called
+[2026-02-08T00:16:55.780Z] [Electron] Window ready, showing...
+[2026-02-08T00:16:57.256Z] [Electron] Content loaded
+[2026-02-08T00:17:27.034Z] ====== ELECTRON STARTUP ======
+[2026-02-08T00:17:27.038Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T00:17:27.038Z] Starting application...
+[2026-02-08T00:17:27.039Z] [Electron] Main script loaded successfully
+[2026-02-08T00:17:27.085Z] [Electron] App ready event
+[2026-02-08T00:17:27.086Z] [Next] Attempting to start Next.js server
+[2026-02-08T00:17:27.087Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T00:17:27.087Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T00:17:27.088Z] [Next] Next binary exists: true
+[2026-02-08T00:17:27.088Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T00:17:27.089Z] [Next] Next CLI exists: true
+[2026-02-08T00:17:27.089Z] [Next] isPackaged: false
+[2026-02-08T00:17:27.109Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T00:17:27.109Z] [Electron] Starting await...
+[2026-02-08T00:17:30.123Z] [Electron] Creating window
+[2026-02-08T00:17:30.123Z] [Electron] Creating main window
+[2026-02-08T00:17:30.195Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T00:17:30.211Z] [Electron] Load URL called
+[2026-02-08T00:17:30.873Z] [Electron] Window ready, showing...
+[2026-02-08T00:17:30.954Z] [Electron] Content loaded
+[2026-02-08T04:47:00.050Z] ====== ELECTRON STARTUP ======
+[2026-02-08T04:47:00.089Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:47:00.090Z] Starting application...
+[2026-02-08T04:47:00.090Z] [Electron] Main script loaded successfully
+[2026-02-08T04:47:01.484Z] [Electron] App ready event
+[2026-02-08T04:47:01.486Z] [Next] Attempting to start Next.js server
+[2026-02-08T04:47:01.487Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:47:01.487Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T04:47:01.488Z] [Next] Next binary exists: true
+[2026-02-08T04:47:01.488Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T04:47:01.489Z] [Next] Next CLI exists: true
+[2026-02-08T04:47:01.489Z] [Next] isPackaged: false
+[2026-02-08T04:47:01.739Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T04:47:01.739Z] [Electron] Starting await...
+[2026-02-08T04:47:04.750Z] [Electron] Creating window
+[2026-02-08T04:47:04.752Z] [Electron] Creating main window
+[2026-02-08T04:47:06.831Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T04:47:07.175Z] [Electron] Load URL called
+[2026-02-08T04:47:47.579Z] ====== ELECTRON STARTUP ======
+[2026-02-08T04:47:47.582Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:47:47.583Z] Starting application...
+[2026-02-08T04:47:47.583Z] [Electron] Main script loaded successfully
+[2026-02-08T04:47:47.636Z] [Electron] App ready event
+[2026-02-08T04:47:47.637Z] [Next] Attempting to start Next.js server
+[2026-02-08T04:47:47.639Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:47:47.640Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T04:47:47.640Z] [Next] Next binary exists: true
+[2026-02-08T04:47:47.641Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T04:47:47.641Z] [Next] Next CLI exists: true
+[2026-02-08T04:47:47.642Z] [Next] isPackaged: false
+[2026-02-08T04:47:47.649Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T04:47:47.652Z] [Electron] Starting await...
+[2026-02-08T04:47:50.668Z] [Electron] Creating window
+[2026-02-08T04:47:50.669Z] [Electron] Creating main window
+[2026-02-08T04:47:50.720Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T04:47:50.730Z] [Electron] Load URL called
+[2026-02-08T04:48:07.248Z] [Electron] Window ready, showing...
+[2026-02-08T04:48:08.083Z] [Electron] Content loaded
+[2026-02-08T04:48:24.785Z] ====== ELECTRON STARTUP ======
+[2026-02-08T04:48:24.788Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:48:24.789Z] Starting application...
+[2026-02-08T04:48:24.789Z] [Electron] Main script loaded successfully
+[2026-02-08T04:48:24.829Z] [Electron] App ready event
+[2026-02-08T04:48:24.830Z] [Next] Attempting to start Next.js server
+[2026-02-08T04:48:24.831Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:48:24.831Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T04:48:24.832Z] [Next] Next binary exists: true
+[2026-02-08T04:48:24.832Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T04:48:24.833Z] [Next] Next CLI exists: true
+[2026-02-08T04:48:24.833Z] [Next] isPackaged: false
+[2026-02-08T04:48:24.841Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T04:48:24.842Z] [Electron] Starting await...
+[2026-02-08T04:48:27.909Z] ====== ELECTRON STARTUP ======
+[2026-02-08T04:48:27.913Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:48:27.913Z] Starting application...
+[2026-02-08T04:48:27.914Z] [Electron] Main script loaded successfully
+[2026-02-08T04:48:27.963Z] [Electron] App ready event
+[2026-02-08T04:48:27.964Z] [Next] Attempting to start Next.js server
+[2026-02-08T04:48:27.965Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:48:27.966Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T04:48:27.966Z] [Next] Next binary exists: true
+[2026-02-08T04:48:27.967Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T04:48:27.967Z] [Next] Next CLI exists: true
+[2026-02-08T04:48:27.968Z] [Next] isPackaged: false
+[2026-02-08T04:48:27.976Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T04:48:27.976Z] [Electron] Starting await...
+[2026-02-08T04:48:30.985Z] [Electron] Creating window
+[2026-02-08T04:48:30.987Z] [Electron] Creating main window
+[2026-02-08T04:48:31.233Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T04:48:31.255Z] [Electron] Load URL called
+[2026-02-08T04:48:31.851Z] [Electron] Content loaded
+[2026-02-08T04:49:24.644Z] [Electron] Content loaded
+[2026-02-08T04:51:21.185Z] [Electron] Content loaded
+[2026-02-08T04:51:29.411Z] [Electron] Content loaded
+[2026-02-08T04:51:41.296Z] [Electron] Window closed
+[2026-02-08T04:51:41.297Z] [Electron] All windows closed
+[2026-02-08T04:55:56.826Z] ====== ELECTRON STARTUP ======
+[2026-02-08T04:55:56.830Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:55:56.831Z] Starting application...
+[2026-02-08T04:55:56.831Z] [Electron] Main script loaded successfully
+[2026-02-08T04:55:56.879Z] [Electron] App ready event
+[2026-02-08T04:55:56.880Z] [Next] Attempting to start Next.js server
+[2026-02-08T04:55:56.881Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T04:55:56.881Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T04:55:56.882Z] [Next] Next binary exists: true
+[2026-02-08T04:55:56.882Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T04:55:56.883Z] [Next] Next CLI exists: true
+[2026-02-08T04:55:56.883Z] [Next] isPackaged: false
+[2026-02-08T04:55:56.961Z] [Next] Spawning process...
+[2026-02-08T04:55:57.166Z] [Next] Process spawned with PID: 3240
+[2026-02-08T04:56:02.175Z] [Next] Server timeout (5000ms), continuing anyway
+[2026-02-08T04:56:02.175Z] [Electron] Starting await...
+[2026-02-08T04:56:04.135Z] [STDOUT] ▲ Next.js 16.1.6 (Turbopack)
+[2026-02-08T04:56:04.137Z] [STDOUT] - Local:         http://localhost:3000
+- Network:       http://192.168.127.1:3000
+- Environments: .env
+
+✓ Starting...
+[2026-02-08T04:56:04.137Z] [Next] Server is ready!
+[2026-02-08T04:56:05.182Z] [Electron] Creating window
+[2026-02-08T04:56:05.183Z] [Electron] Creating main window
+[2026-02-08T04:56:05.242Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T04:56:05.266Z] [Electron] Load URL called
+[2026-02-08T04:56:06.059Z] [STDOUT] ✓ Ready in 4.8s
+[2026-02-08T04:56:10.752Z] [STDOUT] ○ Compiling /docs ...
+[2026-02-08T04:56:25.924Z] [Electron] Window closed
+[2026-02-08T04:56:25.926Z] [Electron] All windows closed
+[2026-02-08T04:56:25.927Z] [Electron] Killing server process
+[2026-02-08T04:56:25.976Z] [Next] Process exited: code=null, signal=SIGTERM
+[2026-02-08T05:00:22.042Z] ====== ELECTRON STARTUP ======
+[2026-02-08T05:00:22.046Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T05:00:22.047Z] Starting application...
+[2026-02-08T05:00:22.047Z] [Electron] Main script loaded successfully
+[2026-02-08T05:00:22.120Z] [Electron] App ready event
+[2026-02-08T05:00:22.121Z] [Next] Attempting to start Next.js server
+[2026-02-08T05:00:22.123Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T05:00:22.123Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T05:00:22.124Z] [Next] Next binary exists: true
+[2026-02-08T05:00:22.125Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T05:00:22.126Z] [Next] Next CLI exists: true
+[2026-02-08T05:00:22.126Z] [Next] isPackaged: false
+[2026-02-08T05:00:22.135Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T05:00:22.136Z] [Electron] Starting await...
+[2026-02-08T05:00:25.140Z] [Electron] Creating window
+[2026-02-08T05:00:25.141Z] [Electron] Creating main window
+[2026-02-08T05:00:25.261Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T05:00:25.289Z] [Electron] Load URL called
+[2026-02-08T05:00:55.307Z] [Electron] Content loaded
+[2026-02-08T13:10:35.612Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:10:35.668Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:10:35.669Z] Starting application...
+[2026-02-08T13:10:35.677Z] [Electron] Main script loaded successfully
+[2026-02-08T13:10:37.055Z] [Electron] App ready event
+[2026-02-08T13:10:37.056Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:10:37.057Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:10:37.057Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:10:37.057Z] [Next] Next binary exists: true
+[2026-02-08T13:10:37.058Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:10:37.058Z] [Next] Next CLI exists: true
+[2026-02-08T13:10:37.058Z] [Next] isPackaged: false
+[2026-02-08T13:10:37.327Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:10:37.327Z] [Electron] Starting await...
+[2026-02-08T13:10:40.336Z] [Electron] Creating window
+[2026-02-08T13:10:40.337Z] [Electron] Creating main window
+[2026-02-08T13:10:41.350Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:10:41.686Z] [Electron] Load URL called
+[2026-02-08T13:11:51.678Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:11:51.680Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:11:51.681Z] Starting application...
+[2026-02-08T13:11:51.734Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:11:51.735Z] [Electron] Main script loaded successfully
+[2026-02-08T13:11:51.767Z] [Electron] App ready event
+[2026-02-08T13:11:51.769Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:11:51.770Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:11:51.770Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:11:51.771Z] [Next] Next binary exists: true
+[2026-02-08T13:11:51.771Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:11:51.772Z] [Next] Next CLI exists: true
+[2026-02-08T13:11:51.772Z] [Next] isPackaged: false
+[2026-02-08T13:11:51.777Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:11:51.778Z] [Electron] Starting await...
+[2026-02-08T13:11:54.786Z] [Electron] Creating window
+[2026-02-08T13:11:55.416Z] [Electron] Creating main window
+[2026-02-08T13:11:55.464Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:11:55.476Z] [Electron] Load URL called
+[2026-02-08T13:12:50.818Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:12:50.832Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:12:50.832Z] Starting application...
+[2026-02-08T13:12:50.845Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:12:50.846Z] [Electron] Main script loaded successfully
+[2026-02-08T13:12:50.879Z] [Electron] App ready event
+[2026-02-08T13:12:50.880Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:12:50.881Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:12:50.881Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:12:50.882Z] [Next] Next binary exists: true
+[2026-02-08T13:12:50.882Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:12:50.883Z] [Next] Next CLI exists: true
+[2026-02-08T13:12:50.883Z] [Next] isPackaged: false
+[2026-02-08T13:12:50.888Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:12:50.889Z] [Electron] Starting await...
+[2026-02-08T13:12:53.894Z] [Electron] Creating window
+[2026-02-08T13:12:53.894Z] [Electron] Creating main window
+[2026-02-08T13:12:57.457Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:12:58.678Z] [Electron] Load URL called
+[2026-02-08T13:13:01.952Z] [Electron] Content loaded
+[2026-02-08T13:15:45.709Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:15:45.712Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:15:45.712Z] Starting application...
+[2026-02-08T13:15:45.712Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:15:45.720Z] [Electron] Main script loaded successfully
+[2026-02-08T13:15:45.751Z] [Electron] App ready event
+[2026-02-08T13:15:45.752Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:15:45.753Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:15:45.754Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:15:45.754Z] [Next] Next binary exists: true
+[2026-02-08T13:15:45.755Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:15:45.755Z] [Next] Next CLI exists: true
+[2026-02-08T13:15:45.755Z] [Next] isPackaged: false
+[2026-02-08T13:15:45.762Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:15:45.762Z] [Electron] Starting await...
+[2026-02-08T13:15:48.770Z] [Electron] Creating window
+[2026-02-08T13:15:48.771Z] [Electron] Creating main window
+[2026-02-08T13:15:48.810Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:15:48.827Z] [Electron] Load URL called
+[2026-02-08T13:15:52.568Z] [Electron] Content loaded
+[2026-02-08T13:16:35.173Z] [Electron] Content loaded
+[2026-02-08T13:18:59.336Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:18:59.338Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:18:59.338Z] Starting application...
+[2026-02-08T13:18:59.339Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:18:59.339Z] [Electron] Main script loaded successfully
+[2026-02-08T13:18:59.481Z] [Electron] App ready event
+[2026-02-08T13:18:59.483Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:18:59.484Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:18:59.484Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:18:59.485Z] [Next] Next binary exists: true
+[2026-02-08T13:18:59.485Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:18:59.485Z] [Next] Next CLI exists: true
+[2026-02-08T13:18:59.486Z] [Next] isPackaged: false
+[2026-02-08T13:18:59.491Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:18:59.491Z] [Electron] Starting await...
+[2026-02-08T13:19:02.503Z] [Electron] Creating window
+[2026-02-08T13:19:02.504Z] [Electron] Creating main window
+[2026-02-08T13:19:02.562Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:19:02.572Z] [Electron] Load URL called
+[2026-02-08T13:19:03.555Z] [Electron] Content loaded
+[2026-02-08T13:19:31.526Z] [Electron] Content loaded
+[2026-02-08T13:21:52.857Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:21:52.859Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:21:52.860Z] Starting application...
+[2026-02-08T13:21:52.860Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:21:52.861Z] [Electron] Main script loaded successfully
+[2026-02-08T13:21:52.892Z] [Electron] App ready event
+[2026-02-08T13:21:52.893Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:21:52.894Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:21:52.894Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:21:52.895Z] [Next] Next binary exists: true
+[2026-02-08T13:21:52.895Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:21:52.895Z] [Next] Next CLI exists: true
+[2026-02-08T13:21:52.896Z] [Next] isPackaged: false
+[2026-02-08T13:21:52.901Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:21:52.901Z] [Electron] Starting await...
+[2026-02-08T13:21:55.912Z] [Electron] Creating window
+[2026-02-08T13:21:55.913Z] [Electron] Creating main window
+[2026-02-08T13:21:55.960Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:21:55.974Z] [Electron] Load URL called
+[2026-02-08T13:21:56.666Z] [Electron] Content loaded
+[2026-02-08T13:22:49.204Z] [Electron] Content loaded
+[2026-02-08T13:25:12.841Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:25:12.844Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:25:12.844Z] Starting application...
+[2026-02-08T13:25:12.844Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:25:12.845Z] [Electron] Main script loaded successfully
+[2026-02-08T13:25:12.878Z] [Electron] App ready event
+[2026-02-08T13:25:12.879Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:25:12.880Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:25:12.880Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:25:12.881Z] [Next] Next binary exists: true
+[2026-02-08T13:25:12.881Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:25:12.882Z] [Next] Next CLI exists: true
+[2026-02-08T13:25:12.882Z] [Next] isPackaged: false
+[2026-02-08T13:25:12.889Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:25:12.889Z] [Electron] Starting await...
+[2026-02-08T13:25:15.904Z] [Electron] Creating window
+[2026-02-08T13:25:15.904Z] [Electron] Creating main window
+[2026-02-08T13:25:15.953Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:25:15.963Z] [Electron] Load URL called
+[2026-02-08T13:25:16.839Z] [Electron] Content loaded
+[2026-02-08T13:25:50.057Z] [Electron] Content loaded
+[2026-02-08T13:26:41.029Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:26:41.031Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:26:41.032Z] Starting application...
+[2026-02-08T13:26:41.032Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:26:41.033Z] [Electron] Main script loaded successfully
+[2026-02-08T13:26:41.063Z] [Electron] App ready event
+[2026-02-08T13:26:41.064Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:26:41.065Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:26:41.065Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:26:41.066Z] [Next] Next binary exists: true
+[2026-02-08T13:26:41.066Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:26:41.067Z] [Next] Next CLI exists: true
+[2026-02-08T13:26:41.067Z] [Next] isPackaged: false
+[2026-02-08T13:26:41.072Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:26:41.072Z] [Electron] Starting await...
+[2026-02-08T13:26:44.079Z] [Electron] Creating window
+[2026-02-08T13:26:44.079Z] [Electron] Creating main window
+[2026-02-08T13:26:44.129Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:26:44.141Z] [Electron] Load URL called
+[2026-02-08T13:26:44.427Z] [Electron] Content loaded
+[2026-02-08T13:27:01.788Z] [Electron] Content loaded
+[2026-02-08T13:33:49.522Z] [Electron] Window closed
+[2026-02-08T13:33:49.524Z] [Electron] All windows closed
+[2026-02-08T13:33:50.417Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:33:50.419Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:33:50.420Z] Starting application...
+[2026-02-08T13:33:50.420Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:33:50.421Z] [Electron] Main script loaded successfully
+[2026-02-08T13:33:50.453Z] [Electron] App ready event
+[2026-02-08T13:33:50.454Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:33:50.455Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:33:50.456Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:33:50.456Z] [Next] Next binary exists: true
+[2026-02-08T13:33:50.456Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:33:50.457Z] [Next] Next CLI exists: true
+[2026-02-08T13:33:50.457Z] [Next] isPackaged: false
+[2026-02-08T13:33:50.462Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:33:50.462Z] [Electron] Starting await...
+[2026-02-08T13:33:53.473Z] [Electron] Creating window
+[2026-02-08T13:33:53.473Z] [Electron] Creating main window
+[2026-02-08T13:33:53.511Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:33:53.524Z] [Electron] Load URL called
+[2026-02-08T13:33:54.747Z] [Electron] Content loaded
+[2026-02-08T13:34:08.581Z] [Electron] Content loaded
+[2026-02-08T13:34:30.224Z] [Electron] Window closed
+[2026-02-08T13:34:30.225Z] [Electron] All windows closed
+[2026-02-08T13:36:12.730Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:36:12.732Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:36:12.732Z] Starting application...
+[2026-02-08T13:36:12.733Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:36:12.733Z] [Electron] Main script loaded successfully
+[2026-02-08T13:36:12.765Z] [Electron] App ready event
+[2026-02-08T13:36:12.766Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:36:12.767Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:36:12.767Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:36:12.767Z] [Next] Next binary exists: true
+[2026-02-08T13:36:12.768Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:36:12.768Z] [Next] Next CLI exists: true
+[2026-02-08T13:36:12.769Z] [Next] isPackaged: false
+[2026-02-08T13:36:12.774Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:36:12.775Z] [Electron] Starting await...
+[2026-02-08T13:36:15.786Z] [Electron] Creating window
+[2026-02-08T13:36:15.787Z] [Electron] Creating main window
+[2026-02-08T13:36:15.832Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:36:15.842Z] [Electron] Load URL called
+[2026-02-08T13:36:16.136Z] [Electron] Content loaded
+[2026-02-08T13:38:11.125Z] [Electron] Content loaded
+[2026-02-08T13:40:05.273Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:40:05.276Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:40:05.276Z] Starting application...
+[2026-02-08T13:40:05.277Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:40:05.277Z] [Electron] Main script loaded successfully
+[2026-02-08T13:40:05.308Z] [Electron] App ready event
+[2026-02-08T13:40:05.309Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:40:05.310Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:40:05.310Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:40:05.311Z] [Next] Next binary exists: true
+[2026-02-08T13:40:05.311Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:40:05.312Z] [Next] Next CLI exists: true
+[2026-02-08T13:40:05.312Z] [Next] isPackaged: false
+[2026-02-08T13:40:05.317Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:40:05.318Z] [Electron] Starting await...
+[2026-02-08T13:40:08.325Z] [Electron] Creating window
+[2026-02-08T13:40:08.326Z] [Electron] Creating main window
+[2026-02-08T13:40:08.377Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:40:08.387Z] [Electron] Load URL called
+[2026-02-08T13:40:44.117Z] [Electron] Content loaded
+[2026-02-08T13:42:43.595Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:42:43.733Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:42:43.733Z] Starting application...
+[2026-02-08T13:42:43.945Z] [Electron] userData path set to: E:\aplicacion diesel\my-desktop-app\.electron-data
+[2026-02-08T13:42:43.946Z] [Electron] Main script loaded successfully
+[2026-02-08T13:42:43.977Z] [Electron] App ready event
+[2026-02-08T13:42:43.977Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:42:43.978Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:42:43.978Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:42:43.979Z] [Next] Next binary exists: true
+[2026-02-08T13:42:43.979Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:42:43.980Z] [Next] Next CLI exists: true
+[2026-02-08T13:42:43.980Z] [Next] isPackaged: false
+[2026-02-08T13:42:43.986Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:42:43.986Z] [Electron] Starting await...
+[2026-02-08T13:42:46.995Z] [Electron] Creating window
+[2026-02-08T13:42:46.995Z] [Electron] Creating main window
+[2026-02-08T13:42:47.058Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:42:47.067Z] [Electron] Load URL called
+[2026-02-08T13:44:12.733Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:44:12.763Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:44:12.764Z] Starting application...
+[2026-02-08T13:44:12.787Z] [Electron] userData path set to: C:\Users\Geotech\AppData\Local\Temp\diesel-app-data
+[2026-02-08T13:44:12.787Z] [Electron] Main script loaded successfully
+[2026-02-08T13:44:12.822Z] [Electron] App ready event
+[2026-02-08T13:44:12.823Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:44:12.823Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:44:12.824Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:44:12.824Z] [Next] Next binary exists: true
+[2026-02-08T13:44:12.824Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:44:12.825Z] [Next] Next CLI exists: true
+[2026-02-08T13:44:12.825Z] [Next] isPackaged: false
+[2026-02-08T13:44:12.831Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:44:12.831Z] [Electron] Starting await...
+[2026-02-08T13:44:15.836Z] [Electron] Creating window
+[2026-02-08T13:44:15.837Z] [Electron] Creating main window
+[2026-02-08T13:44:15.893Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:44:15.906Z] [Electron] Load URL called
+[2026-02-08T13:44:37.705Z] [Electron] Content loaded
+[2026-02-08T13:47:01.662Z] [Electron] Content loaded
+[2026-02-08T13:51:45.231Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:51:45.361Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:51:45.361Z] Starting application...
+[2026-02-08T13:51:45.362Z] [Electron] userData path set to: C:\Users\Geotech\AppData\Local\Temp\diesel-app-data
+[2026-02-08T13:51:45.362Z] [Electron] Main script loaded successfully
+[2026-02-08T13:51:45.393Z] [Electron] App ready event
+[2026-02-08T13:51:45.394Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:51:45.394Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:51:45.395Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:51:45.395Z] [Next] Next binary exists: true
+[2026-02-08T13:51:45.395Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:51:45.395Z] [Next] Next CLI exists: true
+[2026-02-08T13:51:45.396Z] [Next] isPackaged: false
+[2026-02-08T13:51:45.550Z] [Next] Spawning process...
+[2026-02-08T13:51:45.646Z] [Next] Process spawned with PID: 6160
+[2026-02-08T13:51:45.841Z] [STDERR] ⚠ You are using a non-standard "NODE_ENV" value in your environment. This creates inconsistencies in the project and is strongly advised against. Read more: https://nextjs.org/docs/messages/non-standard-node-env
+[2026-02-08T13:51:48.300Z] [STDOUT] ▲ Next.js 16.1.6 (Turbopack)
+[2026-02-08T13:51:48.301Z] [STDOUT] - Local:         http://localhost:3000
+- Network:       http://192.168.127.1:3000
+- Environments: .env
+
+✓ Starting...
+[2026-02-08T13:51:48.301Z] [Next] Server is ready!
+[2026-02-08T13:51:48.301Z] [Electron] Starting await...
+[2026-02-08T13:51:49.956Z] [STDOUT] We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[2026-02-08T13:51:49.957Z] [STDOUT] The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+  	- include was updated to add '.next/dev/dev/types/**/*.ts'
+[2026-02-08T13:51:50.384Z] [STDOUT] ✓ Ready in 3.2s
+[2026-02-08T13:51:51.310Z] [Electron] Creating window
+[2026-02-08T13:51:51.310Z] [Electron] Creating main window
+[2026-02-08T13:51:51.356Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:51:51.369Z] [Electron] Load URL called
+[2026-02-08T13:51:54.449Z] [STDOUT] ○ Compiling /login ...
+[2026-02-08T13:52:09.850Z] [STDOUT] GET /login 200 in 18.4s (compile: 18.3s, render: 159ms)
+[2026-02-08T13:52:10.028Z] [Electron] Content loaded
+[2026-02-08T13:52:29.027Z] [STDOUT] ✓ Finished writing to filesystem cache in 17.0s
+[2026-02-08T13:54:19.058Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:54:19.060Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:54:19.060Z] Starting application...
+[2026-02-08T13:54:19.061Z] [Electron] userData path set to: C:\Users\Geotech\AppData\Local\Temp\diesel-app-data
+[2026-02-08T13:54:19.061Z] [Electron] Main script loaded successfully
+[2026-02-08T13:54:19.094Z] [Electron] App ready event
+[2026-02-08T13:54:19.095Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:54:19.096Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:54:19.096Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:54:19.097Z] [Next] Next binary exists: true
+[2026-02-08T13:54:19.097Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:54:19.098Z] [Next] Next CLI exists: true
+[2026-02-08T13:54:19.098Z] [Next] isPackaged: false
+[2026-02-08T13:54:19.103Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:54:19.103Z] [Electron] Starting await...
+[2026-02-08T13:54:22.115Z] [Electron] Creating window
+[2026-02-08T13:54:22.116Z] [Electron] Creating main window
+[2026-02-08T13:54:22.166Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:54:22.178Z] [Electron] Load URL called
+[2026-02-08T13:55:24.859Z] [Electron] Content loaded
+[2026-02-08T13:56:35.825Z] [Electron] Content loaded
+[2026-02-08T13:59:25.803Z] ====== ELECTRON STARTUP ======
+[2026-02-08T13:59:25.805Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:59:25.806Z] Starting application...
+[2026-02-08T13:59:25.806Z] [Electron] userData path set to: C:\Users\Geotech\AppData\Local\Temp\diesel-app-data
+[2026-02-08T13:59:25.807Z] [Electron] Main script loaded successfully
+[2026-02-08T13:59:25.840Z] [Electron] App ready event
+[2026-02-08T13:59:25.840Z] [Next] Attempting to start Next.js server
+[2026-02-08T13:59:25.841Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T13:59:25.842Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T13:59:25.842Z] [Next] Next binary exists: true
+[2026-02-08T13:59:25.843Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T13:59:25.843Z] [Next] Next CLI exists: true
+[2026-02-08T13:59:25.843Z] [Next] isPackaged: false
+[2026-02-08T13:59:25.849Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T13:59:25.850Z] [Electron] Starting await...
+[2026-02-08T13:59:28.858Z] [Electron] Creating window
+[2026-02-08T13:59:28.859Z] [Electron] Creating main window
+[2026-02-08T13:59:28.907Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T13:59:28.928Z] [Electron] Load URL called
+[2026-02-08T13:59:53.782Z] [Electron] Content loaded
+[2026-02-08T14:00:21.188Z] [Electron] Content loaded
+[2026-02-08T14:01:46.180Z] ====== ELECTRON STARTUP ======
+[2026-02-08T14:01:46.183Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T14:01:46.183Z] Starting application...
+[2026-02-08T14:01:46.183Z] [Electron] userData path set to: C:\Users\Geotech\AppData\Local\Temp\diesel-app-data
+[2026-02-08T14:01:46.184Z] [Electron] Main script loaded successfully
+[2026-02-08T14:01:46.217Z] [Electron] App ready event
+[2026-02-08T14:01:46.218Z] [Next] Attempting to start Next.js server
+[2026-02-08T14:01:46.218Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T14:01:46.219Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T14:01:46.219Z] [Next] Next binary exists: true
+[2026-02-08T14:01:46.220Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T14:01:46.220Z] [Next] Next CLI exists: true
+[2026-02-08T14:01:46.220Z] [Next] isPackaged: false
+[2026-02-08T14:01:46.225Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T14:01:46.226Z] [Electron] Starting await...
+[2026-02-08T14:01:49.230Z] [Electron] Creating window
+[2026-02-08T14:01:49.231Z] [Electron] Creating main window
+[2026-02-08T14:01:49.276Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T14:01:49.289Z] [Electron] Load URL called
+[2026-02-08T14:02:12.388Z] [Electron] Content loaded
+[2026-02-08T14:02:35.118Z] [Electron] Content loaded
+[2026-02-08T14:05:39.622Z] ====== ELECTRON STARTUP ======
+[2026-02-08T14:05:39.624Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T14:05:39.625Z] Starting application...
+[2026-02-08T14:05:39.625Z] [Electron] userData path set to: C:\Users\Geotech\AppData\Local\Temp\diesel-app-data
+[2026-02-08T14:05:39.626Z] [Electron] Main script loaded successfully
+[2026-02-08T14:05:39.661Z] [Electron] App ready event
+[2026-02-08T14:05:39.662Z] [Next] Attempting to start Next.js server
+[2026-02-08T14:05:39.663Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T14:05:39.664Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T14:05:39.664Z] [Next] Next binary exists: true
+[2026-02-08T14:05:39.665Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T14:05:39.665Z] [Next] Next CLI exists: true
+[2026-02-08T14:05:39.665Z] [Next] isPackaged: false
+[2026-02-08T14:05:39.671Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T14:05:39.671Z] [Electron] Starting await...
+[2026-02-08T14:05:42.686Z] [Electron] Creating window
+[2026-02-08T14:05:42.687Z] [Electron] Creating main window
+[2026-02-08T14:05:42.734Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T14:05:42.749Z] [Electron] Load URL called
+[2026-02-08T14:05:59.920Z] [Electron] Content loaded
+[2026-02-08T14:06:14.406Z] [Electron] Content loaded
+[2026-02-08T14:11:55.965Z] ====== ELECTRON STARTUP ======
+[2026-02-08T14:11:55.967Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T14:11:55.968Z] Starting application...
+[2026-02-08T14:11:56.010Z] [Electron] userData path set to: C:\Users\Geotech\AppData\Local\Temp\diesel-app-data
+[2026-02-08T14:11:56.010Z] [Electron] Main script loaded successfully
+[2026-02-08T14:11:56.053Z] [Electron] App ready event
+[2026-02-08T14:11:56.054Z] [Next] Attempting to start Next.js server
+[2026-02-08T14:11:56.055Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T14:11:56.055Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T14:11:56.056Z] [Next] Next binary exists: true
+[2026-02-08T14:11:56.056Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T14:11:56.057Z] [Next] Next CLI exists: true
+[2026-02-08T14:11:56.057Z] [Next] isPackaged: false
+[2026-02-08T14:11:56.063Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T14:11:56.064Z] [Electron] Starting await...
+[2026-02-08T14:11:59.080Z] [Electron] Creating window
+[2026-02-08T14:11:59.081Z] [Electron] Creating main window
+[2026-02-08T14:11:59.135Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T14:11:59.148Z] [Electron] Load URL called
+[2026-02-08T14:12:13.689Z] [Electron] Content loaded
+[2026-02-08T14:12:33.024Z] [Electron] Content loaded
+[2026-02-08T14:14:58.496Z] [Electron] Window closed
+[2026-02-08T14:14:58.497Z] [Electron] All windows closed
+[2026-02-08T14:19:00.447Z] ====== ELECTRON STARTUP ======
+[2026-02-08T14:19:00.451Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T14:19:00.452Z] Starting application...
+[2026-02-08T14:19:00.487Z] [Electron] userData path set to: C:\Users\Geotech\AppData\Local\Temp\diesel-app-data
+[2026-02-08T14:19:00.488Z] [Electron] Main script loaded successfully
+[2026-02-08T14:19:00.548Z] [Electron] App ready event
+[2026-02-08T14:19:00.549Z] [Next] Attempting to start Next.js server
+[2026-02-08T14:19:00.550Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T14:19:00.551Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T14:19:00.551Z] [Next] Next binary exists: true
+[2026-02-08T14:19:00.552Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T14:19:00.553Z] [Next] Next CLI exists: true
+[2026-02-08T14:19:00.553Z] [Next] isPackaged: false
+[2026-02-08T14:19:00.562Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T14:19:00.563Z] [Electron] Starting await...
+[2026-02-08T14:19:03.569Z] [Electron] Creating window
+[2026-02-08T14:19:03.570Z] [Electron] Creating main window
+[2026-02-08T14:19:03.675Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T14:19:03.692Z] [Electron] Load URL called
+[2026-02-08T14:19:30.056Z] [Electron] Content loaded
+[2026-02-08T14:20:10.718Z] [Electron] Content loaded
+[2026-02-08T15:47:46.694Z] ====== ELECTRON STARTUP ======
+[2026-02-08T15:47:46.709Z] __dirname: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T15:47:46.709Z] Starting application...
+[2026-02-08T15:47:46.710Z] [Electron] userData path set to: C:\Users\Geotech\AppData\Local\Temp\diesel-app-data
+[2026-02-08T15:47:46.760Z] [Electron] Main script loaded successfully
+[2026-02-08T15:47:46.923Z] [Electron] App ready event
+[2026-02-08T15:47:46.924Z] [Next] Attempting to start Next.js server
+[2026-02-08T15:47:46.925Z] [Next] App path: E:\aplicacion diesel\my-desktop-app
+[2026-02-08T15:47:46.926Z] [Next] Next binary: E:\aplicacion diesel\my-desktop-app\node_modules\.bin\next.cmd
+[2026-02-08T15:47:46.926Z] [Next] Next binary exists: true
+[2026-02-08T15:47:46.927Z] [Next] Next CLI: E:\aplicacion diesel\my-desktop-app\node_modules\next\dist\bin\next
+[2026-02-08T15:47:46.927Z] [Next] Next CLI exists: true
+[2026-02-08T15:47:46.928Z] [Next] isPackaged: false
+[2026-02-08T15:47:46.934Z] [Next] Dev server already running, skipping spawn
+[2026-02-08T15:47:46.935Z] [Electron] Starting await...
+[2026-02-08T15:47:49.940Z] [Electron] Creating window
+[2026-02-08T15:47:49.941Z] [Electron] Creating main window
+[2026-02-08T15:47:50.060Z] [Electron] Loading URL: http://localhost:3000/login
+[2026-02-08T15:47:50.082Z] [Electron] Load URL called
+[2026-02-08T15:48:18.014Z] [Electron] Content loaded
+[2026-02-08T15:49:25.110Z] [Electron] Content loaded
+[2026-02-08T16:03:50.247Z] [Electron] Window closed
+[2026-02-08T16:03:50.270Z] [Electron] All windows closed
